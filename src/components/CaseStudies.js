@@ -23,27 +23,29 @@ function CaseStudies() {
         fetchData(); // Call the async function to fetch data from the API endpoint
     }, []); // Empty dependency array ensures useEffect runs once after the initial render
 
-  return (
-    <div className='container'>
-        <div className='container-fluid heading'>
-            <h1 className='heading-text'>----What we do</h1>
-        </div>
-        <div class="row">
-            {cardData.map(card => (   
-                    <div class="col-md-4">
+    return (
+        <div className='container'>
+            <div className='row container heading'>
+                <span className='col-2 line my-auto'></span>
+                <h1 className='col-10 heading-text'>Case Studies</h1>
+            </div>
+            <div class="row mt-4 mb-4">
+                {cardData.map(card => (
+                    <div class="col-md-4 mb-2">
                         <div key={card.id} className="card case-study-card">
                             <img src={card.imageUrl} className="card-img-top" alt={card.title} />
                             <div className="card-text">
-                                <h5 className="card-title fw-bold">{card.title}</h5>
-                                <p className="fs-6 case-study-card-text">{card.description}</p>
+                                <div className='col-2 line my-auto mb-2'></div>
+                                <h1 className="card-img-title fw-bold">{card.title}</h1>
+                                <p className="case-study-card-text">{card.description}</p>
                             </div>
                         </div>
                     </div>
-                
+
                 ))}
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default CaseStudies

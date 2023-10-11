@@ -10,19 +10,19 @@ import Brands from './components/Brands';
 function App() {
   return (
     <div className='App'>
-      <Navbar/>
-      <Hero/>
-      <Services/>
-      <CaseStudies/>
-      <Brands/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <Services />
+      <CaseStudies />
+      <Brands />
+      <Footer />
       {/* <main className ="container-fluid main p-0">
         
         {/* <Projects/> 
         <Contact/>
         <Footer/> 
       </main>*/}
-      
+
 
     </div>
   );

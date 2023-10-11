@@ -8,112 +8,59 @@
     position: relative;
 }
 
-.section-7::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-.section-7-inner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 65%;
-    padding-top: 100px;
-}
-
-.section-7-text {
-    font-size: 24px;
-    font-family: Roboto, sans-serif;
+.footer-heading-text {
+    font-size: 20px;
     font-weight: 400;
-    line-height: 1.6;
-    color: #FFFFFF;
 }
 
-.section-7-icons {
-    font-size: 42px;
-    margin-top: 30px;
+.footer-offer-line {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px 0px;
 }
 
-.social-icons {
-    color: #FFFFFF;
+.footer-address {
+    font-size: 20px;
 }
 
-.social-icons:hover {
-    color: #C5C5C5;
+ul {
+    list-style: none;
+    font-size: 20px;
+    color: white;
 }
 
-.social-icons:not(:last-child) {
-    margin-right: 15px;
-}
-
-@media (max-width: 768px) {
-    .section-7-inner {
-        width: 75%;
+@media (max-width: 576px) {
+    .footer-heading-text {
+        font-size: 10px;
     }
 
-    .section-7-text {
+    .footer-offer-line {
         font-size: 20px;
     }
 
-    .section-7-icons {
-        font-size: 32px;
+    ul {
+        font-size: 10px;
+    }
+
+    .footer-address {
+        font-size: 10px;
     }
 }
 
-@media (max-width: 426px) {
-    .section-7 {
-        padding: 140px 0px 140px 0px;
+@media (max-width: 992px) {
+    .footer-heading-text {
+        font-size: 15px;
     }
 
-    .section-7-inner {
-        width: 85%;
-        padding-top: 70px;
+    .footer-offer-line {
+        font-size: 25px;
     }
 
-    .section-7-text {
-        font-size: 16px;
+    ul {
+        font-size: 15px;
     }
 
-    .section-7-icons {
-        font-size: 22px;
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 320px) {
-    .section-7 {
-        padding: 130px 0px;
-    }
-
-    .section-7-inner {
-        width: 90%;
-        padding-top: 60px;
-    }
-}
-
-/* FOOTER */
-
-.footer {
-    padding: 50px 50px 30px 50px !important;
-    background-color: #000000;
-}
-
-.section-footer-inner {
-    color: #FFFFFF;
-}
-
-@media (max-width: 426px) {
-    .footer {
-        padding: 30px 30px 20px 30px !important;
-    }
-
-    .footer-text {
-        font-size: 12px;
+    .footer-address {
+        font-size: 15px;
     }
 }

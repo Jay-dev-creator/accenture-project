@@ -6,11 +6,64 @@
     object-fit: cover;
 }
 
+.card-img-title {
+    font-size: 32px;
+}
+
+.case-study-card-text {
+    font-size: 16px;
+}
+
 .card-text {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 15px;
+    padding: 20px;
     /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
     color: white;
+}
+
+@media (max-width: 576px) {
+    .card-img-title {
+        font-size: 28px;
+    }
+
+    .case-study-card-text {
+        font-size: 18px;
+    }
+
+    .line {
+        width: 20px;
+        height: 2px;
+        flex-shrink: 0;
+        background-color: blueviolet;
+        flex-direction: column;
+    }
+
+    .card-text {
+        padding: 5px;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .card-img-title {
+        font-size: 16px;
+    }
+
+    .case-study-card-text {
+        font-size: 11px;
+    }
+
+    .line {
+        width: 20px;
+        height: 2px;
+        flex-shrink: 0;
+        background-color: blueviolet;
+        flex-direction: column;
+    }
+
+    .card-text {
+        padding: 5px;
+    }
 }
