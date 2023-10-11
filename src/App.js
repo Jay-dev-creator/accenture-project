@@ -1,21 +1,26 @@
 
 import './App.css'
-import { Contact } from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import { Projects } from './components/Projects';
+import Services from './components/Services';
+import CaseStudies from './components/CaseStudies';
+import Brands from './components/Brands';
 
 function App() {
   return (
     <div className='App'>
       <Navbar/>
-      <main className ="container-fluid main p-0">
-        <Hero/>
-        {/* <Projects/> */}
+      <Hero/>
+      <Services/>
+      <CaseStudies/>
+      <Brands/>
+      {/* <main className ="container-fluid main p-0">
+        
+        {/* <Projects/> 
         <Contact/>
-        <Footer/>
-      </main>
+        <Footer/> 
+      </main>*/}
       
 
     </div>

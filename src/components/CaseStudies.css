@@ -1,0 +1,16 @@
+.case-study-card {
+    position: relative;
+}
+
+.card-img {
+    object-fit: cover;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    color: white;
+}
