@@ -1,8 +1,9 @@
 .case-study-card {
     position: relative;
+    margin: 0px 20px;
 }
 
-.card-img {
+.card-img-top {
     object-fit: cover;
 }
 
