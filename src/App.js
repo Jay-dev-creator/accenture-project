@@ -15,6 +15,7 @@ function App() {
       <Services/>
       <CaseStudies/>
       <Brands/>
+      <Footer/>
       {/* <main className ="container-fluid main p-0">
         
         {/* <Projects/> 

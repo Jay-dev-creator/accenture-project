@@ -1,9 +1,60 @@
+.services-section {
+    margin-top: 85px;
+}
+
 .heading-text {
-    color: red;
     font-size: 24px;
+    font-weight: 400;;
 }
 
 .offer-line {
     font-size: 48px;
     padding: 20px 0px 20px 0px;
+    font-weight: 700;
+    line-height: 140%;
 }
+
+.line {
+    width: 40px;
+    height: 4px;
+    flex-shrink: 0;
+    background-color: blueviolet;
+}
+
+.service-card {
+    padding: 20px;
+    margin-top: 40px;  
+}
+
+.card-title {
+    font-size: 24px;  
+}
+
+.card-description {
+    font-size: 20px;
+}
+
+ @media (max-width: 576px) {
+    .services-section {
+        margin-top: 40px;   
+    }
+    .heading-text {
+        font-size: 20px;
+    }
+    .offer-line {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .service-card {
+        padding: 10px 10px 0px;  
+    }
+    .card-title {
+        font-size: 18px;  
+    }
+    .card-description {
+        font-size: 14px;
+    }
+    .card-icon {
+        width: 50px;
+    }
+} 
