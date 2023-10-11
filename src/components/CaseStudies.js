@@ -41,7 +41,6 @@ function CaseStudies() {
                             </div>
                         </div>
                     </div>
-
                 ))}
             </div>
         </div>

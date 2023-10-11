@@ -1,8 +1,8 @@
 /* SECTION NO 7 */
 
-.section-7 {
+.footer {
     padding: 50px;
-    background-color: #70259B;
+    background-color: var(--primary-dark-color);
     background-position: top;
     background-size: cover;
     position: relative;
@@ -29,7 +29,7 @@ ul {
     color: white;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
     .footer-heading-text {
         font-size: 10px;
     }
@@ -44,23 +44,5 @@ ul {
 
     .footer-address {
         font-size: 10px;
-    }
-}
-
-@media (max-width: 992px) {
-    .footer-heading-text {
-        font-size: 15px;
-    }
-
-    .footer-offer-line {
-        font-size: 25px;
-    }
-
-    ul {
-        font-size: 15px;
-    }
-
-    .footer-address {
-        font-size: 15px;
     }
 }

@@ -3,7 +3,7 @@ import '../assets/styles/Footer.css'
 
 const Footer = () => {
     return (
-        <div class="container-fluid section-7">
+        <div class="container-fluid footer">
             <div className='row container heading'>
                 <span className='col-2 line my-auto'></span>
                 <h1 className='col-10 footer-heading-text text-white'>Contact us</h1>

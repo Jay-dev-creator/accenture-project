@@ -2,9 +2,14 @@
 
 
 /* MAIN */
+:root {
+  --primary-color: #70259B;
+  --primary-dark-color: #430964;
+  --white-shade-color: #FAFAFA;
+  --black-shade-color: #242424;
+  /* Add more colors as needed */
+}
 
 .main {
   background-color: white;
 }
-
-

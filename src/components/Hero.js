@@ -5,9 +5,9 @@ const Hero = () => {
   return (
     <div class="hero-section">
       <div class="hero-content">
-        <h1>Live with Confidence</h1>
-        <p>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-        <button className='btn hero-button'>view project</button>
+        <h1 className='hero-title'>Live with Confidence</h1>
+        <p className='hero-description'>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
+        <div className='btn hero-button'>view project</div>
       </div>
     </div>
   )

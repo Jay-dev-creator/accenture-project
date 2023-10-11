@@ -8,58 +8,28 @@
 
 .navbar {
     background-size: cover;
-    background-color: #70259B;
+    background-color: var(--primary-color);
     /* height: 80px; */
     flex-shrink: 0;
 }
 
 .nav-link {
-    color: #FFFFFF;
+    color: white;
 }
 
 .nav-link:hover {
     color: grey;
 }
 
-.btn {
-    background-color: #FFFFFF;
+.nav-button {
+    background-color: white;
     border-radius: 50px;
-}
-
-/* .sticky {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    padding: 8px 20px !important;
-} */
-
-/* .nav-custom-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 96px;
+    max-height: 37px;
     font-weight: bold;
-    color: #000000 !important;
-    text-transform: uppercase;
-} */
-
-/* .nav-custom-link:hover {
-    color: #FFFFFF !important;
-    background-color: #000000;
-} */
-
-/* .color-white {
-    color: #FFFFFF !important;
-} */
-
-/* .nav-btn-icon {
-    color: #FFFFFF;
-} */
-
-/* @media (max-width: 426px) {
-    #navbar {
-        padding: 5px 10px;
-    }
-
-    #nav-logo {
-        font-size: 20px;
-    }
-
-    .sticky {
-        padding: 2px 10px !important;
-    }
-} */
+    font-size: 14px;
+    padding: 16px;
+}
