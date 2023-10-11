@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './CaseStudies.css'
+import '../assets/styles/CaseStudies.css'
 
 function CaseStudies() {
 

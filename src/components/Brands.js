@@ -1,5 +1,5 @@
 import React from 'react'
-import './Brands.css'
+import '../assets/styles/Brands.css'
 import { Visa, TymeBank, Distell, Spotify, Microsoft, Engen, Nike, Wesgrow, Multichoice, Pnp, Liquid, Tfg, Sanlam, Santam, Bbc } from './Icons'
 
 function Brands() {
