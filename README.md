@@ -1,3 +1,8 @@
+# Instructions on how to get the project running
+
+#clone the repository
+git clone https://github.com/username/repo.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
