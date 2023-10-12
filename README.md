@@ -1,7 +1,12 @@
 # Instructions on how to get the project running
 
 clone the repository with command 
-'git clone https://github.com/Jay-dev-creator/accenture-project.git'
+
+### `git clone https://github.com/Jay-dev-creator/accenture-project.git`
+
+### `npm install` to install all the dependancies for this project
+
+### `npm start` to run the server 
 
 # Getting Started with Create React App
 
@@ -11,8 +16,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+<<<<<<< HEAD
 ### `npm install` to install all the dependancies for this project
 
+=======
+>>>>>>> b3b2928a9e8a7483e4149efcbf8567fdbdcb0ddf
 ### `npm start`
 
 Runs the app in the development mode.\
