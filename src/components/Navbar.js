@@ -4,39 +4,35 @@ import '../assets/styles/Navbar.css'
 const Navbar = () => {
     return (
         <div>
-            {/* test */}
-            <nav class="navbar p-3 navbar-expand-lg fixed-top">
-                <div class="container">
-
-                    {/* logo */}
-                    <a class="navbar-brand" href="#">
-                        <img src={require("../assets/images/logo.png")} class="" alt="" />
+            <nav className='navbar p-3 navbar-expand-lg fixed-top'>
+                <div className='container'>
+                    {/* Brand logo */}
+                    <a className='navbar-brand' href='#'>
+                        <img src={require('../assets/images/logo.png')} className='' alt='' />
                     </a>
-
                     {/* toogle button */}
-                    <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
-                        <span class="navbar-btn text-light"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    <button className='navbar-toggler' id='nav-btn' type='button' data-toggle='collapse'
+                        data-target='#collapsibleNavbar'>
+                        <span className='navbar-btn text-light'><i className='fa fa-bars' aria-hidden='true'></i></span>
                     </button>
-
                     {/* menu items */}
-                    <div class="mx-auto collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item navigation-list">
-                                <a class="nav-link" href="#">Services</a>
+                    <div className='mx-auto collapse navbar-collapse justify-content-center' id='collapsibleNavbar'>
+                        <ul className='navbar-nav'>
+                            <li className='nav-item navigation-list'>
+                                <a className='nav-link' href='#services-section'>Services</a>
                             </li>
-                            <li class="nav-item navigation-list">
-                                <a class="nav-link" href="#">Industries</a>
+                            <li className='nav-item navigation-list'>
+                                <a className='nav-link' href='#Brands'>Industries</a>
                             </li>
-                            <li class="nav-item navigation-list">
-                                <a class="nav-link" href="#">Cases</a>
+                            <li className='nav-item navigation-list'>
+                                <a className='nav-link' href='#case-studies'>Cases</a>
                             </li>
-                            <li class="nav-item navigation-list">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li className='nav-item navigation-list'>
+                                <a className='nav-link' href='#Footer'>Contact</a>
                             </li>
                         </ul>
                     </div>
-
+                    {/* Navigation bar button */}
                     <div>
                         <div className='btn nav-button'><a hre></a>Let's Talk</div>
                     </div>

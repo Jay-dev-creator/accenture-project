@@ -16,13 +16,6 @@ function App() {
       <CaseStudies />
       <Brands />
       <Footer />
-      {/* <main className ="container-fluid main p-0">
-        
-        {/* <Projects/> 
-        <Contact/>
-        <Footer/> 
-      </main>*/}
-
 
     </div>
   );

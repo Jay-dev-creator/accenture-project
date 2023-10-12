@@ -1,3 +1,5 @@
+/* Styling for Case studies */
+
 .case-study-card {
     position: relative;
     margin: 0px 20px;
@@ -5,6 +7,8 @@
 
 .card-img-top {
     object-fit: cover;
+    width: 399px;
+    height: 399px;
 }
 
 .card-img-title {
@@ -23,7 +27,8 @@
     color: white;
 }
 
-@media (max-width: 576px) {
+/* for responsiveness with media with a maximum with of 720px */
+@media (max-width: 720px) {
     .card-img-title {
         font-size: 28px;
     }
@@ -41,29 +46,7 @@
     }
 
     .card-text {
-        padding: 5px;
+        padding: 20px;
 
-    }
-}
-
-@media (max-width: 992px) {
-    .card-img-title {
-        font-size: 16px;
-    }
-
-    .case-study-card-text {
-        font-size: 11px;
-    }
-
-    .line {
-        width: 20px;
-        height: 2px;
-        flex-shrink: 0;
-        background-color: var(--primary-color);
-        flex-direction: column;
-    }
-
-    .card-text {
-        padding: 5px;
     }
 }

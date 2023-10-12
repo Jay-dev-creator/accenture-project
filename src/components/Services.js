@@ -4,7 +4,7 @@ import data from '../data';
 
 const Services = () => {
     return (
-        <div className='container services-section'>
+        <div className='container' id='services-section'>
             <div className='row container heading'>
                 <span className='col-2 line my-auto'></span>
                 <h1 className='col-10 heading-text'>What we do</h1>
@@ -13,6 +13,7 @@ const Services = () => {
                 <h1 className='offer-line'>We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</h1>
             </div>
             <div class="row">
+                {/* fetch data from data.js */}
                 {data.map(item => (
                     <div class="col-6 col-lg-3 service-card">
                         <div key={item.id}>
@@ -22,6 +23,7 @@ const Services = () => {
                         </div>
                     </div>
                 ))}
+
             </div>
         </div>
     )

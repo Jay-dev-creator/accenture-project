@@ -1,6 +1,9 @@
+/* Style for the hero section */
+
 .hero-section {
     position: relative;
     height: 100vh;
+    /*100% of the viewpoint heigh*/
     background-image: url('../images/hero-image.png');
     background-position: center;
     background-size: cover;
@@ -12,6 +15,7 @@
 /* Style for the content on top of the hero image */
 .hero-content {
     z-index: 1;
+    /*for the text content to be in front of the image*/
     position: absolute;
     bottom: 86px;
     padding: 80px;

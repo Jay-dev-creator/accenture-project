@@ -1,3 +1,5 @@
+// collection of all the icons used on the application, fetched at images instate of svg 
+// for faster processing 
 
 import React from 'react';
 
